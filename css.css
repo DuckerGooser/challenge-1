@@ -1,0 +1,73 @@
+body {
+  margin:0;
+  background-color: #FCF8E8;
+  text-align: center;
+  vertical-align:middle;
+}
+h2{
+  letter-spacing: 0.25rem;
+  color: #FFE5B4;
+}
+.btn {
+
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #137d18;
+  padding: 15px 60px 15px 60px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #15a128;
+  text-decoration: none;
+}
+
+.image{
+  margin-right: 2.5%;
+  height: 100%;
+  width:50%;
+  float: left;
+}
+.new-price{
+  color: #137d18;
+  font-family: 'Fraunces', serif;
+  display: inline-block;
+  font-size: 1.75rem;
+}
+.old-price{
+  position: relative;
+  left:0.625rem;
+  bottom:0.25rem;
+  margin:auto;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.product-page{
+
+  background-color: white;
+  border-style: hidden;
+  border-radius: 15px;
+  overflow:hidden;
+  text-align: left;
+  height:28.125rem;
+  width:37.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+  margin: auto;
+
+}
+.text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  margin-right: 2.5%;
+}
